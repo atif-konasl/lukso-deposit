@@ -1,5 +1,5 @@
 create-deposit:
-	./bin/eth2-val-tools deposit-data \
+	./bin/eth2-val-tools-Linux-x86_64 deposit-data \
 	--fork-version=0x60000069 \
 	--source-max=5 \
 	--source-min=0 \
@@ -7,7 +7,7 @@ create-deposit:
 	--withdrawals-mnemonic="rude swarm educate under toddler stay athlete bubble also swing unveil gas cube stairs broken shaft fit satisfy real carbon melt awful mountain noodle"
 
 eth2-generate-genesis:
-	./bin/eth2-testnet-genesis phase0 \
+	./bin/eth2-testnet-genesis-Linux-x86_64 phase0 \
 	--config ./configs/config.yaml  \
 	--mnemonics ./configs/genesis_mnemonics.yaml  \
 	--state-output ./configs/genesis.ssz \
@@ -15,7 +15,7 @@ eth2-generate-genesis:
 	--eth1-block 0x1f13accd12bc20416a6554cef3fcfd618d94a4064dead6c8a77abfa84890e417
 
 create-genesis-wallets:
-	./bin/eth2-val-tools keystores \
+	./bin/eth2-val-tools-Linux-x86_64 keystores \
 	--insecure \
     --out-loc ./keystores \
     --prysm-pass "jasdn120agdaxTYBsd%a" \
@@ -33,7 +33,7 @@ stop:
 	docker-compose down
 
 create-deposit-wallets:
-	./bin/eth2-val-tools keystores \
+	./bin/eth2-val-tools-Linux-x86_64 keystores \
 	--insecure \
     --out-loc ./keystores \
     --prysm-pass "jasdn120agdaxTYBsd%a" \
