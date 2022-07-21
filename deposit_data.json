@@ -1,9 +1,0 @@
-{
-    "account": "m/12381/3600/0/0/0",
-    "deposit_data_root": "a0a0a1a21d20036150261ae783293dbec3fc5af31576e22f1477f4a0d43b952a",
-    "pubkey": "a857d1e575bba164a20b54df051d4f5e5dbdc4b59d46fadd4315ec181a2ed4a2d5ac958dbdeeddad2b661a83aeb3b0d2",
-    "signature": "b28c3e0f832b1807cb8c4b0b873e9f6a5461d118d89b692021d108f16c5c9f884f0fb1799c74daec31f7ff7cfa35fb6f0aad870761d641fe6d35c389c8bcf6f6695ba4160ce7acc8a590355abd96fa766cfe6b175215316a92388e113b45ad93",
-    "value": 32000000000,
-    "version": 1,
-    "withdrawal_credentials": "00c79d31d90f960964d57ed07fa91d3b82c15640bcc07d0f0376fa22f2c25cf8"
-}
